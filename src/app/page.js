@@ -1,11 +1,11 @@
+import PopularCategories from "@/components/Categories/PopularCategories";
 import HeroBanner from "@/components/Home/HeroBanner";
-import PopularCategories from "@/components/Home/PopularCategories";
 
 export default function Home() {
   return (
     <main>
       <HeroBanner />
-      <PopularCategories />
+      <PopularCategories/>
     </main>
   );
 }
