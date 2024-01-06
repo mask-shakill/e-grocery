@@ -2,7 +2,7 @@ import React from "react";
 
 const HeroBanner = () => {
   return (
-    <div className="w-full h-[543px] bg-green-200 relative border-6">
+    <div className="w-full h-[543px] bg-pink-700 relative border-6">
       <img
         className="absolute w-[600px] right-0 bottom-0"
         src="https://i.ibb.co/JrZfRL8/her0.png"
@@ -11,7 +11,7 @@ const HeroBanner = () => {
       <div className="absolute left-16 top-32">
         <h1 className="text-4xl font-bold ">
           Fresh Grocery Extravaganza! Enjoy <br /> big discounts on the{" "}
-          <span className="text-yellow-500">
+          <span className="text-white">
             {" "}
             finest and <br /> freshest produce{" "}
           </span>

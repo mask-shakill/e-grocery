@@ -10,7 +10,7 @@ const Navbar = () => {
           <RiMenu3Fill />
         </p>
         <h1 className="flex items-center gap-x-1 text-2xl font-semibold ps-10 ">
-          <span className="">
+          <span className="text-blue-500">
             <GrStatusGood />
           </span>
           TrustyHut
@@ -59,18 +59,18 @@ const Navbar = () => {
 
         <div className="ps-14">
           <button className="flex items-center gap-x-2">
-            <GrFavorite className="text-2xl" /> Whitelist
+            <GrFavorite className="text-2xl text-pink-600" /> Whitelist
           </button>
         </div>
         <div className="ps-10">
-          <button className="flex items-center gap-x-2 ">
+          <button className="flex items-center gap-x-2 text-pink-600 ">
             <IoBagHandleOutline className="text-2xl" />
             Bag
           </button>
         </div>
         <div className="ps-14">
           <button className="flex items-center gap-x-2 ">
-            <RiAccountCircleLine className="text-2xl" />
+            <RiAccountCircleLine className="text-2xl text-blue-500" />
             Account
           </button>
         </div>
