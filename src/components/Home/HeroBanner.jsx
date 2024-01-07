@@ -8,16 +8,13 @@ const HeroBanner = () => {
         src="https://i.ibb.co/JrZfRL8/her0.png"
         alt=""
       />
-      <div className="absolute left-16 top-32">
-        <h1 className="text-4xl font-bold ">
-          Fresh Grocery Extravaganza! Enjoy <br /> big discounts on the{" "}
-          <span className="text-white">
-            {" "}
-            finest and <br /> freshest produce{" "}
-          </span>
+      <div className="absolute left-16 top-36 ">
+        <h1 className="text-4xl  font-bold ">
+          Fresh Grocery Extravaganza! <br /> Enjoy big discounts on <br />
+          the <span className="text-white"> freshest produce </span>
         </h1>
 
-        <form className="w-3/4 mt-7">
+        <form className="w-full mt-7">
           <label
             for="default-search"
             class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white"

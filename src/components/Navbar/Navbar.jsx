@@ -4,8 +4,8 @@ import { IoBagHandleOutline } from "react-icons/io5";
 
 const Navbar = () => {
   return (
-    <div>
-      <nav className="flex items-center  p-7 ">
+    <>
+      <nav className="flex items-center p-7 sticky top-0 -z-10 col-span-6 ">
         <p className="text-4xl">
           <RiMenu3Fill />
         </p>
@@ -75,7 +75,7 @@ const Navbar = () => {
           </button>
         </div>
       </nav>
-    </div>
+    </>
   );
 };
 

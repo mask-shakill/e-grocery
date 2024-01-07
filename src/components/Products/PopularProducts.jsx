@@ -5,7 +5,7 @@ const PopularProducts = () => {
   return (
     <div className="mx-14 mt-9">
       <h1 className="text-2xl font-semibold">Popular Products</h1>
-      <div className="grid grid-cols-6 gap-x-4">
+      <div className="grid grid-cols-5 gap-x-4">
         <CommonProduct
           img="https://i.ibb.co/3cBsRxb/egg.png"
           title="Chicken egg"
@@ -65,18 +65,6 @@ const PopularProducts = () => {
           title="Mastered Oil"
           quantity="1 kg"
           price="910 taka"
-        />
-        <CommonProduct
-          img="https://i.ibb.co/sjxPDNj/beef.png"
-          title="Premium Beef"
-          quantity="1 kg"
-          price="820 taka"
-        />
-        <CommonProduct
-          img="https://img.freepik.com/free-photo/fresh-fish-white_144627-24518.jpg?w=740&t=st=1704603961~exp=1704604561~hmac=64ad15020d4e5d8447d5285ebb5c4644d59e406189e8416cb509f728007a79dd"
-          title="See fish"
-          quantity="1 kg"
-          price="520 taka"
         />
       </div>
     </div>
