@@ -1,11 +1,15 @@
+"use client";
 import { RiMenu3Fill, RiAccountCircleLine } from "react-icons/ri";
 import { GrStatusGood, GrFavorite } from "react-icons/gr";
 import { IoBagHandleOutline } from "react-icons/io5";
+import AddBag from "../Custom-Modal/AddBag";
+import { useState } from "react";
 
 const Navbar = () => {
+  const [showBag, setShowBag] = useState(false);
   return (
     <>
-      <nav className="flex items-center p-7 sticky top-0 -z-10 col-span-6 ">
+      <nav className="flex items-center p-5 sticky top-0 -z-10 col-span-6 bg-green-50 shadow-sm ">
         <p className="text-4xl">
           <RiMenu3Fill />
         </p>
@@ -63,7 +67,10 @@ const Navbar = () => {
           </button>
         </div>
         <div className="ps-10">
-          <button className="flex items-center gap-x-2 text-pink-600 ">
+          <button
+            className="flex items-center gap-x-2 text-pink-600 "
+            onClick={() => setShowBag(true)}
+          >
             <IoBagHandleOutline className="text-2xl" />
             Bag
           </button>
@@ -75,6 +82,7 @@ const Navbar = () => {
           </button>
         </div>
       </nav>
+      <AddBag bagVisible={showBag} bagClose={() => setShowBag(false)} />
     </>
   );
 };

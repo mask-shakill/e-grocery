@@ -3,7 +3,7 @@ import Link from "next/link";
 const Sidebar = () => {
   return (
     <div>
-      <nav className="bg-white h-[543px] w-56 fixed top-[111px] border py-3">
+      <nav className="bg-green-50 h-[543px] w-56 fixed top-[95px] border py-3">
         <ul className="flex flex-col ps-5 gap-y-2">
           <Link href={"/"}>Popular</Link> <hr />
           <Link href={"/"}>Flash Sales</Link> <hr />
